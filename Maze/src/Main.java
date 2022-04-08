@@ -6,12 +6,10 @@ import java.util.*;
 class Node{
     int x;
     int y;
-    int dir;
 
-    Node(int x, int y, int dir){
+    Node(int x, int y){
         this.x = x;
         this.y = y;
-        this.dir = dir;
     }
 }
 
@@ -31,7 +29,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         makeMaze(); //가장자리 0으로 테투리 만들기
         //System.out.println(Arrays.deepToString(maze));
-        System.out.println(findPath(new Node(n,m,0)));
+        System.out.println(findPath(new Node(n,m)));
 
     }
     public static void makeMaze() throws IOException{
@@ -62,7 +60,7 @@ public class Main {
 
     public static Integer findPath(Node exit){
         boolean[][] visit;
-        Stack<Node> stack = new Stack<>();
+        Queue<Node> queue = new LinkedList<>();
         int pathcount = 0;
 
         visit = new boolean[exit.x+2][];
@@ -80,43 +78,43 @@ public class Main {
             visit[exit.x+1][j]=true;    //visit mapping
         }
 
-        Node start = new Node(1,1, 0);
+        Node start = new Node(1,1);
+        int status = 0;
 
-        Node now = new Node(1,1,0);
-        Node next = new Node(1,1,0);
+        Node now = new Node(1,1);
+        Node next = new Node(1,1);
         //now = next = start; 이거 고치기
-        stack.push(start);
-        pathcount++;
-        while(now.x!=4 && now.y!=6){
-            now = stack.pop();
+        queue.offer(start);
+        while(now.x!=exit.x || now.y!=exit.y){ //x,y둘중에 하나라도 출구 아님
+            now = queue.poll();
+            if(now == null){
+                System.out.println("null");
+                break;
+            }
+            pathcount++;
             visit[now.x][now.y] = true;
-            for(int i=now.dir; i<4; i++){ //여기가 아닌듯
+            for(int i=0; i<4; i++){ //여기가 아닌듯
                 next.x = now.x + dir[i][0];
                 next.y = now.y + dir[i][1];
-                next.dir = 0;
                 if(maze[next.x][next.y]==1 && !visit[next.x][next.y]) {//갈 수 있으면
                    //is next can go?(1) in Maze && not in visit(0)
-                    if(next.x==4&&next.y==6){
+                    if(next.x==exit.x&&next.y==exit.y){ //출구와 일치
                         pathcount++;
                         System.out.println("exit");
-                        break;
+                        return pathcount;
                     }
-                    pathcount++;
-                    now.dir=i;
-                    stack.add(new Node(now.x,now.y,now.dir));
-                    now.x = next.x;
-                    now.y = next.y; //이 경우에 방향도 초기화해야함
-                    now.dir=0;
-                    i=-1;
-                }
-                else {
-                    next.x = now.x; //복구하고 다음방향
-                    next.y = now.y;
+                    status++; //한가지라도 있을 경우
+                    queue.offer(new Node(next.x,next.y));
                 }
                 visit[next.x][next.y] = true;
-            } //dir 모두 막혀있음. && 모두 방문해봤음 -> stack 복구해서 다른 방향으로 가봐야함.
+            } //dir모두 방문함
+            if(status == 0){
+                pathcount--; //방문할 가지가 없는 경우 방문 안한 것으로 침
+            }
+
         }
-        return pathcount;
+        System.out.println("can't find exit");
+        return 0;
     }
 }
 
