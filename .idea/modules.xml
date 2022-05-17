@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/ApartNum/ApartNum.iml" filepath="$PROJECT_DIR$/ApartNum/ApartNum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Maze/Maze.iml" filepath="$PROJECT_DIR$/Maze/Maze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NandM/NandM.iml" filepath="$PROJECT_DIR$/NandM/NandM.iml" />
     </modules>
   </component>
 </project>
