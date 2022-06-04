@@ -1,47 +1,39 @@
-import javax.swing.plaf.IconUIResource;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
+
 
 public class Main {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static int n;
     static int m;
-    static boolean visit[];
+
     static int[] arr;
     public static void main(String args[]) throws IOException {
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-        visit = new boolean[n];
         arr = new int[m];
 
-        for(int i=0; i<n; i++){
-                visit[i]=false;
-        }
-        visit2( 0); //0부터 깊이 탐색
+        dfs(0,1);
         return;
     }
-    public static void visit2(int depth){
+    public static void dfs(int depth, int start){
         if(depth == m){
             for(int v : arr){
-            System.out.print(v+" ");
+                System.out.print(v+" ");
             }
             System.out.println();
             return;
         }
-        for(int i=0; i<n; i++) { //3
-            if (visit[i] != true) {
-                visit[i] = true;
-                arr[depth] = i+1;
-                visit2(depth + 1);
-                visit[i] = false; // 4
+        for(int i=start; i<=n; i++) {
+            arr[depth]=i;
+            dfs(depth+1, i+1); //start+1이 아니라 i+1..
             }
-        }
         return;
     }
 }
+
