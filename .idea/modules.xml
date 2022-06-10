@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/NandM3/NandM3.iml" filepath="$PROJECT_DIR$/NandM3/NandM3.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM4/NandM4.iml" filepath="$PROJECT_DIR$/NandM4/NandM4.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM5/NandM5.iml" filepath="$PROJECT_DIR$/NandM5/NandM5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NandM6/NandM6.iml" filepath="$PROJECT_DIR$/NandM6/NandM6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/virus/virus.iml" filepath="$PROJECT_DIR$/virus/virus.iml" />
     </modules>
   </component>
 </project>
