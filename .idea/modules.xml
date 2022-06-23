@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ATM/ATM.iml" filepath="$PROJECT_DIR$/ATM/ATM.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/ApartNum/ApartNum.iml" filepath="$PROJECT_DIR$/ApartNum/ApartNum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cabbage/Cabbage.iml" filepath="$PROJECT_DIR$/Cabbage/Cabbage.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cheese/Cheese.iml" filepath="$PROJECT_DIR$/Cheese/Cheese.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Coin0/Coin0.iml" filepath="$PROJECT_DIR$/Coin0/Coin0.iml" />
       <module fileurl="file://$PROJECT_DIR$/Maze/Maze.iml" filepath="$PROJECT_DIR$/Maze/Maze.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM/NandM.iml" filepath="$PROJECT_DIR$/NandM/NandM.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM2/NandM2.iml" filepath="$PROJECT_DIR$/NandM2/NandM2.iml" />
@@ -13,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/NandM4/NandM4.iml" filepath="$PROJECT_DIR$/NandM4/NandM4.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM5/NandM5.iml" filepath="$PROJECT_DIR$/NandM5/NandM5.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM6/NandM6.iml" filepath="$PROJECT_DIR$/NandM6/NandM6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sugar/Sugar.iml" filepath="$PROJECT_DIR$/Sugar/Sugar.iml" />
       <module fileurl="file://$PROJECT_DIR$/virus/virus.iml" filepath="$PROJECT_DIR$/virus/virus.iml" />
     </modules>
   </component>
