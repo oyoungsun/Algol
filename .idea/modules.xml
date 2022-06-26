@@ -5,17 +5,24 @@
       <module fileurl="file://$PROJECT_DIR$/ATM/ATM.iml" filepath="$PROJECT_DIR$/ATM/ATM.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/ApartNum/ApartNum.iml" filepath="$PROJECT_DIR$/ApartNum/ApartNum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bracket/Bracket.iml" filepath="$PROJECT_DIR$/Bracket/Bracket.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cabbage/Cabbage.iml" filepath="$PROJECT_DIR$/Cabbage/Cabbage.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cheese/Cheese.iml" filepath="$PROJECT_DIR$/Cheese/Cheese.iml" />
       <module fileurl="file://$PROJECT_DIR$/Coin0/Coin0.iml" filepath="$PROJECT_DIR$/Coin0/Coin0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConnectedCount/ConnectedCount.iml" filepath="$PROJECT_DIR$/ConnectedCount/ConnectedCount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hideseek/Hideseek.iml" filepath="$PROJECT_DIR$/Hideseek/Hideseek.iml" />
       <module fileurl="file://$PROJECT_DIR$/Maze/Maze.iml" filepath="$PROJECT_DIR$/Maze/Maze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MeetRoom/MeetRoom.iml" filepath="$PROJECT_DIR$/MeetRoom/MeetRoom.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM/NandM.iml" filepath="$PROJECT_DIR$/NandM/NandM.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM2/NandM2.iml" filepath="$PROJECT_DIR$/NandM2/NandM2.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM3/NandM3.iml" filepath="$PROJECT_DIR$/NandM3/NandM3.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM4/NandM4.iml" filepath="$PROJECT_DIR$/NandM4/NandM4.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM5/NandM5.iml" filepath="$PROJECT_DIR$/NandM5/NandM5.iml" />
       <module fileurl="file://$PROJECT_DIR$/NandM6/NandM6.iml" filepath="$PROJECT_DIR$/NandM6/NandM6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SNS/SNS.iml" filepath="$PROJECT_DIR$/SNS/SNS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sugar/Sugar.iml" filepath="$PROJECT_DIR$/Sugar/Sugar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tomato/Tomato.iml" filepath="$PROJECT_DIR$/Tomato/Tomato.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Treasure/Treasure.iml" filepath="$PROJECT_DIR$/Treasure/Treasure.iml" />
       <module fileurl="file://$PROJECT_DIR$/virus/virus.iml" filepath="$PROJECT_DIR$/virus/virus.iml" />
     </modules>
   </component>
