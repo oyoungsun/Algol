@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Cheese/Cheese.iml" filepath="$PROJECT_DIR$/Cheese/Cheese.iml" />
       <module fileurl="file://$PROJECT_DIR$/Coin0/Coin0.iml" filepath="$PROJECT_DIR$/Coin0/Coin0.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConnectedCount/ConnectedCount.iml" filepath="$PROJECT_DIR$/ConnectedCount/ConnectedCount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fibo2/Fibo2.iml" filepath="$PROJECT_DIR$/Fibo2/Fibo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Fibonacci/Fibonacci.iml" filepath="$PROJECT_DIR$/Fibonacci/Fibonacci.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hideseek/Hideseek.iml" filepath="$PROJECT_DIR$/Hideseek/Hideseek.iml" />
       <module fileurl="file://$PROJECT_DIR$/Island/Island.iml" filepath="$PROJECT_DIR$/Island/Island.iml" />
@@ -32,8 +33,10 @@
       <module fileurl="file://$PROJECT_DIR$/SNS/SNS.iml" filepath="$PROJECT_DIR$/SNS/SNS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Safespace/Safespace.iml" filepath="$PROJECT_DIR$/Safespace/Safespace.iml" />
       <module fileurl="file://$PROJECT_DIR$/SeqSun/SeqSun.iml" filepath="$PROJECT_DIR$/SeqSun/SeqSun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StairNum/StairNum.iml" filepath="$PROJECT_DIR$/StairNum/StairNum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sugar/Sugar.iml" filepath="$PROJECT_DIR$/Sugar/Sugar.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sugardelivery/Sugardelivery.iml" filepath="$PROJECT_DIR$/Sugardelivery/Sugardelivery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tile2n2/Tile2n2.iml" filepath="$PROJECT_DIR$/Tile2n2/Tile2n2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tomato/Tomato.iml" filepath="$PROJECT_DIR$/Tomato/Tomato.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tomato2/Tomato2.iml" filepath="$PROJECT_DIR$/Tomato2/Tomato2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Treasure/Treasure.iml" filepath="$PROJECT_DIR$/Treasure/Treasure.iml" />
@@ -41,6 +44,7 @@
       <module fileurl="file://$PROJECT_DIR$/Wallcrush/Wallcrush.iml" filepath="$PROJECT_DIR$/Wallcrush/Wallcrush.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wine/Wine.iml" filepath="$PROJECT_DIR$/Wine/Wine.iml" />
       <module fileurl="file://$PROJECT_DIR$/make!/make!.iml" filepath="$PROJECT_DIR$/make!/make!.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pinarynumber/pinarynumber.iml" filepath="$PROJECT_DIR$/pinarynumber/pinarynumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/plus123/plus123.iml" filepath="$PROJECT_DIR$/plus123/plus123.iml" />
       <module fileurl="file://$PROJECT_DIR$/stairs/stairs.iml" filepath="$PROJECT_DIR$/stairs/stairs.iml" />
       <module fileurl="file://$PROJECT_DIR$/tile2N/tile2N.iml" filepath="$PROJECT_DIR$/tile2N/tile2N.iml" />
